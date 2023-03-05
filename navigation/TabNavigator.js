@@ -24,8 +24,8 @@ const BottomTabNavigator= ()=> {
         inactiveTintColor:'gray'
        }}
     >
-        <Drawer.Screen name='Criar Postagem' component={CreatePost}/>  
-       <Drawer.Screen name='Feed' component={Feed}/>
+        <Tab.Screen name='Criar Postagem' component={CreatePost}/>  
+       <Tab.Screen name='Feed' component={Feed}/>
     </Tab.Navigator>
  )
 }
